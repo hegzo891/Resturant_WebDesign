@@ -65,7 +65,7 @@ li {
 }
 
 .material-icons:hover {
-    color: white;
+    color: rgb(212, 212, 212);
 }
 
 .box-container1 {
@@ -143,7 +143,7 @@ button {
 }
 
 button:hover {
-    background-color:rgb(104, 165, 104);
+    background-color: rgb(104, 165, 104);
     width: 190px;
     letter-spacing: 3px;
 }
@@ -175,14 +175,14 @@ button:hover {
     background-color: rgb(242, 240, 240);
     display: flex;
     flex-direction: column;
-    height: 1500px;
+    height: 1350px;
 }
 
 #title {
     display: flex;
     align-content: center;
     flex-direction: column;
-  
+
 }
 
 #our-dishes {
@@ -206,21 +206,22 @@ button:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 50px;
 }
+
 .line {
     width: 150px;
     height: 4px;
-    background-color:rgb(104, 165, 104);
+    background-color: rgb(104, 165, 104);
     margin: 2px auto;
 }
 
 .line2 {
     width: 190px;
     height: 4px;
-    background-color:rgb(104, 165, 104);
+    background-color: rgb(104, 165, 104);
     margin: 2px auto;
 }
 
-#meals{
+#meals {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -230,13 +231,14 @@ button:hover {
 
 }
 
-#meal1{
+#meal1 {
     background-color: white;
-    display:  flex;
+    display: flex;
     flex-direction: column;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; 
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
     width: 350px;
     height: 400px;
     margin-top: 50px;
@@ -246,15 +248,18 @@ button:hover {
     padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 20px;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2); /* Adding a basic shadow */
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+    /* Adding a basic shadow */
 
 }
-.prices{
+
+.prices {
     display: flex;
     align-content: center;
     justify-content: center;
 }
-.price{
+
+.price {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -265,15 +270,17 @@ button:hover {
     font-size: 25px;
     margin-right: 10px;
 
-    
+
 
 }
-.custom-meals{
+
+.custom-meals {
     width: 270px;
     height: 220px;
- 
+
 }
-.meals-button{
+
+.meals-button {
     width: 150px;
     height: 40px;
     font-size: 20px;
@@ -282,15 +289,16 @@ button:hover {
 
 
 }
-.meals-button:hover{
+
+.meals-button:hover {
     letter-spacing: 0;
-    width:150px;
-    background-color:rgb(104, 165, 104);
+    width: 150px;
+    background-color: rgb(104, 165, 104);
 
 
 }
 
-.starsandtext{
+.starsandtext {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -303,7 +311,7 @@ button:hover {
 
 }
 
-.custom-icon{
+.custom-icon {
     color: rgb(104, 165, 104);
 
 }
@@ -313,35 +321,33 @@ button:hover {
     width: 300px;
     border: 1px solid #ddd;
     padding: 10px;
-    
-  }
 
-  .icon {
+}
+
+.icon {
     position: absolute;
     top: 10px;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
-    
-  }
 
-  .icon-left {
+}
+
+.icon-left {
     left: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 20px;
-    background-color: rgb(219, 216, 216);
     border-radius: 20px;
     width: 40px;
     height: 40px;
-    display:flex;
+    display: flex;
     align-content: center;
     justify-content: center;
-  }
+}
 
-  .icon-right {
+.icon-right {
     right: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-right: 20px;
-    background-color: rgb(219, 216, 216);
     border-radius: 20px;
     width: 40px;
     height: 40px;
@@ -351,8 +357,91 @@ button:hover {
     align-self: center;
     justify-content: center;
 
-  }
+}
 
-  .container:hover .icon {
+.container:hover .icon {
     opacity: 1;
-  }
+}
+
+#title2{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+#About-Us{
+    color: rgb(25, 42, 86);
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 60px;
+    margin-bottom: 10px;
+
+}
+
+#WHY-CHOOSE-US{
+    font-size: 35px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
+
+#image7{
+    width: 800px;
+    height: 600px;
+}
+
+#pic-and-txt{
+    display: flex;
+}
+
+#many-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content1{
+    color: rgb(25, 42, 86);
+    font-weight: 600;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 25px;
+
+
+}
+.content2{
+    color: rgb(25, 42, 86);
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 25px;
+}
+
+.custom-cont{
+    display: flex;
+    font-size: 22px;
+    border: 1px solid black;
+    padding: 20px;
+    padding-left:30px;
+    padding-right: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: rgb(237, 235, 235);
+
+
+}
+
+.content3{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.words{
+    margin-left: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
